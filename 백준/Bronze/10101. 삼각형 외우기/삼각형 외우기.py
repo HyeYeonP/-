@@ -9,10 +9,10 @@ set_angle = set(list_angle)
 if sum(list_angle) != 180:
   print('Error')
 
-elif len(set_angle) == 1 and sum(list_angle) == 180:
+elif len(set_angle) == 1:
   print('Equilateral')
 
-elif len(set_angle) == 2 and sum(list_angle) == 180:
+elif len(set_angle) == 2:
   print('Isosceles')
 
 else:
